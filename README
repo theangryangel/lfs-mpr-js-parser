@@ -1,0 +1,11 @@
+Parsing MPR files using Javascript & HTML5
+==========================================
+An example of parsing LiveForSpeed's MPR files, in Javascript using HTML5's
+FileReader API + jspack (with added drag and drop magic).
+
+Why get your users to upload a 4MB MPR file, when they can just sent you the
+bits you need from the header (a few KB at most)?
+
+Uses (and bundled):
+  - Angularjs (http://angularjs.org/)
+  - jspack (http://code.google.com/p/jspack/)
