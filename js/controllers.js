@@ -67,7 +67,8 @@ function FileUploadCtrl($scope)
 
 	$scope.isDragDropAware = function()
 	{
-		return ('files' in DataTransfer.prototype);
+		var div = document.createElement('div');
+		return ('draggable' in div) || ('ondragstart' in div && 'ondrop' in div && window.FileReader);
 	};
 
 	$scope.setFiles = function(element)
