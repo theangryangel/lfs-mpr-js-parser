@@ -1,5 +1,7 @@
 Parsing MPR files using Javascript & HTML5
 ==========================================
+Video demo @ http://www.youtube.com/watch?v=u_seAK2rmuo
+
 An example of parsing LiveForSpeed's MPR files, in Javascript using HTML5's
 FileReader API + jspack (with added drag and drop magic).
 
